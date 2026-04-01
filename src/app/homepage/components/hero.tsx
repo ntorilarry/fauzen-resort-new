@@ -26,7 +26,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative isolate m-2 h-[90vh] overflow-hidden bg-black py-12 sm:py-16 lg:py-20">
+    <div className="relative isolate m-2 h-[70vh] lg:h-[90vh] overflow-hidden bg-black py-12 sm:py-16 lg:py-20">
       {background && (
         <>
           {background.type === "image" ? (

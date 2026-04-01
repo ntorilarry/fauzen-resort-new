@@ -6,7 +6,7 @@ const Features = () => {
     <section className="py-10 ">
       <div className="max-w-8xl px-4 mx-auto sm:px-6 lg:px-24">
         <div className="grid items-center md:grid-cols-2 md:gap-x-20 gap-y-10">
-          <div className="relative bg-[#faf4f0] pl-16 pr-10 sm:pl-6 md:pl-0 xl:pr-0 md:order-2">
+          <div className="relative order-2 bg-[#faf4f0] pl-16 pr-10 sm:pl-6 md:pl-0 xl:pr-0 md:order-2">
             <div className="relative max-w-xs mx-auto ">
               <div className="overflow-hidden h-100 lg:h-150 w-full m-5 mx-auto">
                 <Image
@@ -20,7 +20,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="md:order-1  text-center">
+          <div className="order-1 md:order-1 text-center">
             <h2 className="text-3xl font-light text-black sm:text-4xl lg:text-5xl">
               FAENA RESIDENCES
             </h2>
