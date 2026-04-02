@@ -7,6 +7,8 @@ import Values from "./components/values";
 import Showcase from "./components/showcase";
 import CTA from "./components/cta";
 import Lifestyle from "./components/lifestyle";
+import Architecture from "./components/architecture";
+import Story from "./components/story";
 
 const Homepage = () => {
   return (
@@ -17,6 +19,8 @@ const Homepage = () => {
       <Showcase />
       <CTA />
       <Lifestyle />
+      <Architecture />
+      <Story />
     </MainLayout>
   );
 };
