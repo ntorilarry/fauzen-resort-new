@@ -11,14 +11,14 @@ const CTA = () => {
     >
       <div className="relative">
         <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
-          <div className="max-w-xl mx-auto text-center">
+          <div className="max-w-2xl mx-auto text-center">
             <p className="mt-5  text-lg font-semibold text-white text-opacity-70">
               THE NEIGHBORHOOD
             </p>
             <h1 className="mt-3 text-4xl text-white font-medium">
               Life by the Miami River
             </h1>
-            <p className="mt-5  text-base font-normal text-white text-opacity-70">
+            <p className="mt-5  text-sm leading-6 font-normal text-white text-opacity-70">
               Enjoy serene waterfront living with private boat rides and curated
               shopping experiences, offering seamless access and allure of
               Brickell City Centre. In a city embracing evolution, Faena
@@ -26,13 +26,11 @@ const CTA = () => {
               and experience.
             </p>
             <button className="bg-[#d6ac63] mt-5 text-white  hover:bg-[#d6ac63]/25  px-12 py-4 text-sm uppercase font-medium transition-colors ">
-          INQUIRE NOW
+              INQUIRE NOW
             </button>
           </div>
         </div>
       </div>
-
-      
     </div>
   );
 };

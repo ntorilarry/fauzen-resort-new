@@ -28,6 +28,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "readymadeui.com",
       },
+       {
+        protocol: "https",
+        hostname: "cdn.rareblocks.xyz",
+      },
     ],
   },
 };

@@ -41,7 +41,7 @@ const Features = () => {
             <a
               href="#"
               title=""
-              className="inline-flex items-center justify-center px-12 py-3 uppercase mt-8 text-base text-white transition-all duration-200 bg-red-600 rounded-md hover:bg-red-700 focus:bg-red-700"
+              className="inline-flex items-center justify-center px-12 py-3 uppercase mt-8 text-base text-white transition-all duration-200 bg-[#d6ac63] hover:bg-[#d6ac63]/25"
               role="button"
             >
               {" "}

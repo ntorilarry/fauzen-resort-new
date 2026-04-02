@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Chronicle Display Roman";
+  src: url("/fonts/chronicleDisplayFont/Chronicle Display Roman.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  src: url("/fonts/gothamBook/Gotham Book.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --font-heading: "Chronicle Display Roman", Georgia, serif;
   --font-subtext: "Gotham Book", "Helvetica Neue", Arial, sans-serif;
