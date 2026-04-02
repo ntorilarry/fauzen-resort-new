@@ -116,7 +116,7 @@ const Navbar = () => {
                   <div className="hidden lg:flex lg:items-center lg:justify-end lg:space-x-2">
                     <Link href="/inquire">
                       <button
-                        className={`rounded-md px-4 py-2 ms-2 text-sm uppercase font-medium transition-colors ${
+                        className={`rounded-md px-8 py-3 ms-2 text-sm uppercase font-medium transition-colors ${
                           lightNavFg
                             ? "bg-[#d6ac63] text-white  hover:bg-[#d6ac63]/25"
                             : "bg-[#d6ac63] text-white hover:bg-[#d6ac63]/50"
