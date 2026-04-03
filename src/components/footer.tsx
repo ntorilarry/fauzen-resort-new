@@ -7,7 +7,7 @@ import { Logo } from "../../public";
 const Footer = () => {
   return (
     <footer className=" bg-black mx-3 mb-3">
-      <div className="px-4 mx-auto max-w-8xl sm:px-6 lg:px-14">
+      <div className="p-4 mx-auto max-w-8xl sm:px-6 lg:px-14">
         <div className="flex items-center justify-between py-2 gap-2">
           <Link href="/" className="flex items-center gap-2">
             <Image
