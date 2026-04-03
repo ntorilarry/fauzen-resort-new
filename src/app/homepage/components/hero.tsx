@@ -54,14 +54,14 @@ const Hero = () => {
         aria-hidden
       />
 
-      <div className="relative z-2 mx-auto flex min-h-[80vh] max-w-7xl items-center justify-center lg:justify-end px-4 sm:px-6 lg:px-8">
-        <div className="max-w-lg text-center lg:max-w-xl lg:mb-36">
-          <h1 className="text-4xl font-light tracking-wide text-white sm:text-6xl lg:text-7xl ">
+      <div className="relative z-2 mx-auto flex max-w-7xl items-center justify-center lg:justify-end px-4 sm:px-6 lg:px-8">
+        <div className=" text-center lg:max-w-xl lg:mb-36">
+          <h1 className="text-5xl font-light tracking-wide text-white sm:text-6xl lg:text-7xl ">
             FAENA RESIDENCES
           </h1>
-          <p className="max-w-3xl mx-auto my-6 text-xl lg:text-3xl font-normal leading-7 text-white">
-          MIAMI
-            </p>
+          <p className="max-w-3xl mx-auto my-6 text-2xl lg:text-3xl font-normal leading-7 text-white">
+            MIAMI
+          </p>
           {/* <Link
               href="/contact-us"
               className="inline-flex items-center justify-center rounded-full border border-transparent bg-teal-800 px-8 py-4 text-sm font-medium text-white shadow-sm transition-all duration-200 hover:bg-teal-700"

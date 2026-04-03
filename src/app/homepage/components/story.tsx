@@ -4,7 +4,7 @@ const Story = () => {
   return (
     <div className="my-16">
       <div
-        className="relative pt-14 pb-72 bg-black bg-cover bg-center mx-3 my-14"
+        className="relative pt-14 pb-72 bg-black bg-cover bg-center mx-2 my-14"
         style={{
           backgroundImage:
             "linear-gradient(#1471bd70, #fff0 33%), url(https://cdn.prod.website-files.com/67a24bae4b2f487fcce5db59/67a3de47b29408fb673d646d_Faena%20copy.webp)",
@@ -41,9 +41,11 @@ const Story = () => {
 
           <div className="">
             <div className="max-w-lg mx-auto lg:max-w-none">
-              <h2 className="text-3xl  text-gray-900 sm:text-4xl lg:text-5xl">
-                Where A Brand <br /> Becomes A <br />
-                <span className="italic text-center"> District</span>
+              <h2 className="text-3xl flex justify-center text-gray-900 sm:text-4xl lg:text-5xl">
+                Where A Brand <br /> Becomes A
+              </h2>
+              <h2 className="text-3xl  text-gray-900 sm:text-4xl lg:text-5xl italic text-center">
+                District
               </h2>
 
               <blockquote className="mt-4 lg:mt-6">
@@ -57,7 +59,7 @@ const Story = () => {
                   Faena doesn’t follow luxury, it creates it.
                   <br />
                   <br />
-                  Owning at The Faena means being part of a movement that
+                 <span className="italic font-semibold">Owning at The Faena</span>  means being part of a movement that
                   reshapes communities, elevates value, and leaves a lasting
                   legacy.
                 </p>

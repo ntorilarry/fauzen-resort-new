@@ -9,6 +9,8 @@ import CTA from "./components/cta";
 import Lifestyle from "./components/lifestyle";
 import Architecture from "./components/architecture";
 import Story from "./components/story";
+import TestimonialsSection from "./components/testimonial";
+import Contact from "./components/contact";
 
 const Homepage = () => {
   return (
@@ -21,6 +23,8 @@ const Homepage = () => {
       <Lifestyle />
       <Architecture />
       <Story />
+      <TestimonialsSection />
+      <Contact />
     </MainLayout>
   );
 };

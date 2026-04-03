@@ -4,7 +4,7 @@ import React from "react";
 const Architecture = () => {
   return (
     <div>
-      <div className="w-full  mx-auto p-3">
+      <div className="w-full  mx-auto p-2">
         <div className="aspect-video w-full overflow-hidden">
           <iframe
             className="w-full h-full"

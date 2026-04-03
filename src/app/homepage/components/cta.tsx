@@ -1,7 +1,7 @@
 const CTA = () => {
   return (
     <div
-      className="relative py-36 bg-black bg-cover bg-center mx-3 my-14"
+      className="relative py-36 bg-black bg-cover bg-center mx-2 my-14"
       style={{
         backgroundImage:
           "linear-gradient(#21362bb3, #21362bb3), url(https://cdn.prod.website-files.com/67a24bae4b2f487fcce5db59/67a272adef8af4e05239afa0_66b51b22120c288af3521394_faena_background.jpg)",
